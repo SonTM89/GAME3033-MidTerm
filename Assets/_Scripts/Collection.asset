@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e4b8c753b32a5b4aa481e78d6fe7c34, type: 3}
   m_Name: Collection
   m_EditorClassIdentifier: 
-  red: 0
+  red: 1
   orange: 0
   yellow: 0
-  green: 1
+  green: 0
   blue: 0
   indigo: 0
-  violet: 1
+  violet: 0
   RedMaterial: {fileID: 2100000, guid: b01cdfc4440834a419d7f9347c094bf3, type: 2}
   OrangeMaterial: {fileID: 2100000, guid: 19caef97aad37864ab63b53427e3bb19, type: 2}
   YellowMaterial: {fileID: 2100000, guid: 8802f59125b7cdd46bdcb53132224aae, type: 2}
@@ -26,7 +26,7 @@ MonoBehaviour:
   BlueMaterial: {fileID: 2100000, guid: 38cb86a77bd9f0f46b078c7a53770243, type: 2}
   IndigoMaterial: {fileID: 2100000, guid: c07587d75fa9d9848a32f5cd9ffb762e, type: 2}
   VioletMaterial: {fileID: 2100000, guid: 8010cce0999ed9246a59e5faad861a00, type: 2}
-  RedEffect: {fileID: 5600110766093993105, guid: dd770cb460a525c4a8b28a69f149cc77, type: 3}
+  RedEffect: {fileID: 5616101269782620124, guid: dd770cb460a525c4a8b28a69f149cc77, type: 3}
   OrangeEffect: {fileID: 7065936983950842870, guid: 55f154b0ba406594ca78ca55a087eac2, type: 3}
   YellowEffect: {fileID: 7207851512612281013, guid: 1d60b20b86f9ea04fb883f7caf48d599, type: 3}
   GreenEffect: {fileID: 3878800393621108882, guid: 5216d00aed540ae43ac39280fa033c58, type: 3}
