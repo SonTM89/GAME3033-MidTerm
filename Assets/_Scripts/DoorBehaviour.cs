@@ -6,6 +6,7 @@ public class DoorBehaviour : MonoBehaviour
 {
     public GameObject player;
     private CollectionManager colmgr;
+    public GameObject Message;
 
     private void Start()
     {
@@ -21,6 +22,8 @@ public class DoorBehaviour : MonoBehaviour
                 if(colmgr.canWin == true)
                 {
                     Debug.Log("Enter");
+                    Message.SetActive(false);
+
                     Animator _animator = other.gameObject.GetComponentInChildren<Animator>();
                     _animator.SetBool("isOpen", true);
                 }

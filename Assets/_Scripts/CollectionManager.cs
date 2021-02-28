@@ -14,12 +14,15 @@ public class CollectionManager : MonoBehaviour
     public GameObject IndigoCheck;
     public GameObject VioletCheck;
 
+    public GameObject Message;
+
     public bool canWin;
 
     // Start is called before the first frame update
     void Start()
     {
         canWin = false;
+        Message.SetActive(false);
 
         collection.red = 0;
         collection.orange = 0;
@@ -77,6 +80,7 @@ public class CollectionManager : MonoBehaviour
             collection.violet == 1)
         {
             canWin = true;
+            Message.SetActive(true);
         }
     }
 }
