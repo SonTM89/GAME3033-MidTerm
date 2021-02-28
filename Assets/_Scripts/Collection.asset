@@ -26,3 +26,10 @@ MonoBehaviour:
   BlueMaterial: {fileID: 2100000, guid: 38cb86a77bd9f0f46b078c7a53770243, type: 2}
   IndigoMaterial: {fileID: 2100000, guid: c07587d75fa9d9848a32f5cd9ffb762e, type: 2}
   VioletMaterial: {fileID: 2100000, guid: 8010cce0999ed9246a59e5faad861a00, type: 2}
+  RedEffect: {fileID: 5600110766093993105, guid: dd770cb460a525c4a8b28a69f149cc77, type: 3}
+  OrangeEffect: {fileID: 7065936983950842870, guid: 55f154b0ba406594ca78ca55a087eac2, type: 3}
+  YellowEffect: {fileID: 7207851512612281013, guid: 1d60b20b86f9ea04fb883f7caf48d599, type: 3}
+  GreenEffect: {fileID: 3878800393621108882, guid: 5216d00aed540ae43ac39280fa033c58, type: 3}
+  BlueEffect: {fileID: 2597456752193638656, guid: f0d05215d323c344f9fa141242f8143a, type: 3}
+  IndigoEffect: {fileID: 985026692398981260, guid: 1b7a785de98d99b4483135dfd48ea508, type: 3}
+  VioletEffect: {fileID: 3905500949653943689, guid: 08d4e0c0fbf5ad34e9aafc628ac116c3, type: 3}

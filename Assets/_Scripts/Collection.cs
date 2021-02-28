@@ -20,4 +20,12 @@ public class Collection : ScriptableObject
     public Material BlueMaterial;
     public Material IndigoMaterial;
     public Material VioletMaterial;
+
+    public GameObject RedEffect;
+    public GameObject OrangeEffect;
+    public GameObject YellowEffect;
+    public GameObject GreenEffect;
+    public GameObject BlueEffect;
+    public GameObject IndigoEffect;
+    public GameObject VioletEffect;
 }
