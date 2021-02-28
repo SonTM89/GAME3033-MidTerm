@@ -39,6 +39,7 @@ namespace Character
 
         public void OnMovement(InputValue value)
         {
+            if (PauseMenu.isPaused) return;
             //Debug.Log(value.Get());
 
             inputVector = value.Get<Vector2>();
@@ -50,6 +51,8 @@ namespace Character
 
         public void OnRun(InputValue value)
         {
+            if (PauseMenu.isPaused) return;
+
             //Debug.Log(value.isPressed);
             playerController.isRunning = value.isPressed;
             playerAnimator.SetBool(IsRunningHash, value.isPressed);
@@ -58,9 +61,10 @@ namespace Character
 
         private void Update()
         {
-            if (playerController.isJumping) return;
+            //if (playerController.isJumping) return;
+            if (PauseMenu.isPaused) return;
 
-            if(!(inputVector.magnitude > 0))
+            if (!(inputVector.magnitude > 0))
             {
                 moveDirection = Vector3.zero;
             }

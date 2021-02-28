@@ -9,6 +9,7 @@ public class PickUp : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             Debug.Log("Raaaa");
+            Destroy(gameObject);
         }
     }
 }
