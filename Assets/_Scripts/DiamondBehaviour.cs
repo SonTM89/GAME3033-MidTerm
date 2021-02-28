@@ -27,30 +27,39 @@ public class DiamondBehaviour : MonoBehaviour
             Debug.Log("Raaaa");
 
             CollectionManager colmgr = other.gameObject.GetComponent<CollectionManager>();
+            MeshRenderer meshRenderer = gameObject.GetComponent<MeshRenderer>();
+
             if (colmgr != null)
             {
                 switch(type)
                 {
                     case Resource.RED:
                         colmgr.collection.red = 1;
+                        meshRenderer.material = colmgr.collection.RedMaterial;
                         break;
                     case Resource.ORANGE:
                         colmgr.collection.orange = 1;
+                        meshRenderer.material = colmgr.collection.OrangeMaterial;
                         break;
                     case Resource.YELLOW:
                         colmgr.collection.yellow = 1;
+                        meshRenderer.material = colmgr.collection.YellowMaterial;
                         break;
                     case Resource.GREEN:
                         colmgr.collection.green = 1;
+                        meshRenderer.material = colmgr.collection.GreenMaterial;
                         break;
                     case Resource.BLUE:
                         colmgr.collection.blue = 1;
+                        meshRenderer.material = colmgr.collection.BlueMaterial;
                         break;
                     case Resource.INDIGO:
                         colmgr.collection.indigo = 1;
+                        meshRenderer.material = colmgr.collection.IndigoMaterial;
                         break;
                     case Resource.VIOLET:
                         colmgr.collection.violet = 1;
+                        meshRenderer.material = colmgr.collection.VioletMaterial;
                         break;
                     default:
                         break;

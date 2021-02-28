@@ -12,4 +12,12 @@ public class Collection : ScriptableObject
     public int blue = 0;
     public int indigo = 0;
     public int violet = 0;
+
+    public Material RedMaterial;
+    public Material OrangeMaterial;
+    public Material YellowMaterial;
+    public Material GreenMaterial;
+    public Material BlueMaterial;
+    public Material IndigoMaterial;
+    public Material VioletMaterial;
 }
